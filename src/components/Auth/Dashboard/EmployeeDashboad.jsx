@@ -3,7 +3,7 @@ import Header from '../other/Header'
 import TaskListNumber from '../other/TaskListNumber'
 import TaskList from '../TaskList/TaskList'
 
-const EmployeeDashboad = ({props}) => {
+const EmployeeDashboad =(props) => {
   return (
     <div className='p-15 bg-[#1C1C1C] h-screen'>
         <Header changeUser={props.changeUser}  data={props.data}/>
